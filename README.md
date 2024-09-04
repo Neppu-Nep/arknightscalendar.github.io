@@ -18,3 +18,8 @@ Pull requests are highly welcomed. For any questions or suggestions, please visi
 
 ## License
 This project is licensed under the MIT License, which can be found in full in [LICENSE.txt](LICENSE.txt). This project distributes third-party resources which are not covered under this license. Their respective licenses/attributions can be found in [THIRDPARTY.md](THIRDPARTY.md).
+
+## TO DO
+set this in github pages
+
+svelte + vite
