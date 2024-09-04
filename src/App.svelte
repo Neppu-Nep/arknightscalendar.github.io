@@ -48,7 +48,7 @@
 	</aside>
 </div>
 <main>
-	<Banner text="This website will not be updated any longer. Forking is welcomed. Thank you for the support all this time, it was fun."/>
+	<Banner text="New owner here! i am hope i can continue this calendar!"/>
 	{#each pages as page}
 		<Schedule {page}/>
 	{/each}
