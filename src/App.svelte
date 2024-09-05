@@ -48,7 +48,7 @@
 	</aside>
 </div>
 <main>
-	<Banner text="New owner here! i am hope i can continue this calendar!"/>
+	<Banner text="New owner here! i am hope i can continue this calendar! Help me making correct calendar on https://discord.gg/BmZmcc9j2z"/>
 	{#each pages as page}
 		<Schedule {page}/>
 	{/each}
