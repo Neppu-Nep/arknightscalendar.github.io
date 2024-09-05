@@ -2,14 +2,14 @@
 	"name": "arknights-calendar",
 	"private": true,
 	"type": "module",
-	"homepage": "https://arknightscalendar.github.io/arknights-calendar/",
+	"homepage": "https://arknightscalendar.github.io/",
 	"scripts": {
 		"dev": "vite --open",
 		"host": "vite --host --open",
 		"build": "vite build",
 		"serve": "vite preview --open",
 		"predeploy": "npm run build",
-		"deploy": "gh-pages -d dist"
+		"deploy": "npx gh-pages -d dist"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-static": "^3.0.4",
