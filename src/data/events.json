@@ -242,7 +242,8 @@
 			{ "start": [ 7, 18], "duration": 10, "event": "wvwwnb", "rerun": true },
 			{ "start": [ 7, 31], "duration": 21, "event": "haps" },
 			{ "start": [ 8, 14], "duration": 14, "event": "tfn4" },
-			{ "start": [ 8, 21], "duration": 10, "event": "wtfc", "rerun": true }
+			{ "start": [ 8, 21], "duration": 10, "event": "wtfc", "rerun": true },
+			{ "start": [ 9,  5], "duration": 14, "event": "ola" }
 		]
 	},
 	"tw": {
