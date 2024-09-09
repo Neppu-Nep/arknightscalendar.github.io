@@ -245,7 +245,9 @@
 			{ "start": [ 8, 21], "duration": 10, "event": "wtfc", "rerun": true },
 			{ "start": [ 9,  5], "duration": 14, "event": "ola" },
 			{ "start": [ 9, 19], "duration": 10, "event": "ood", "rerun": true },
-			{ "start": [ 9, 26], "duration": 14, "event": "ccb2" }
+			{ "start": [ 9, 26], "duration": 14, "event": "ccb2" },
+			{ "start": [10,  8], "duration": 21, "event": "b" }
+			
 		]
 	},
 	"tw": {
