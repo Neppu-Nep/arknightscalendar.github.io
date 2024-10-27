@@ -133,7 +133,10 @@
 			{ "start": [ 6, 25], "duration": 10, "event": "hde", "rerun": true },
 			{ "start": [ 7,  9], "duration":  7, "event": "akr" },
 			{ "start": [ 8,  1], "duration": 21, "event": "ihh" },
-			{ "start": [ 8, 22], "duration": 10, "event": "slahafh", "rerun": true }
+			{ "start": [ 8, 22], "duration": 10, "event": "slahafh", "rerun": true },
+			{ "start": [ 9, 2], "duration": 14, "event": "dot"},
+			{ "start": [ 9, 19], "duration": 10, "event": "ccowov", "rerun": true }
+			
 		]
 	},
 	"en": {
