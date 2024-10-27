@@ -4,13 +4,13 @@
 			{ "start": [ 9, 19], "duration": 10, "event": "ood", "rerun": true },
 			{ "start": [ 9, 26], "duration": 14, "event": "ccb2" },
 			{ "start": [10, 10], "duration": 21, "event": "b" },
-			{ "start": [11, 13], "duration": 14, "event": "riig" },
-			{ "start": [11, 22], "duration": 10, "event": "lt", "rerun": true },
+			{ "start": [11, 15], "duration": 14, "event": "riig" },
+			{ "start": [11, 21], "duration": 10, "event": "lt", "rerun": true },
 			{ "start": [12,  4], "duration": 14, "event": "pol" },
 			{ "start": [12, 19], "duration": 10, "event": "hde", "rerun": true }
 		],
 		"2025": [
-			{ "start": [ 1, 16], "duration": 21, "event": "ihh" },
+			{ "start": [ 1, 13], "duration": 21, "event": "ihh" },
 			{ "start": [ 2,  6], "duration":  7, "event": "akr" },
 			{ "start": [ 2, 13], "duration": 10, "event": "slahafh", "rerun": true }
 		]
