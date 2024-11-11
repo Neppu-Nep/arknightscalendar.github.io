@@ -1,6 +1,8 @@
 {
 	"future": {
 		"2024": [
+			{ "start": [ 9, 26], "duration": 14, "event": "ccb2" },
+			{ "start": [10, 10], "duration": 21, "event": "b" },
 			{ "start": [11, 14], "duration": 14, "event": "riig" },
 			{ "start": [11, 21], "duration": 10, "event": "lt", "rerun": true },
 			{ "start": [12,  4], "duration": 14, "event": "pol" },
