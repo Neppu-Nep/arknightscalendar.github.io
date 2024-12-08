@@ -250,9 +250,6 @@
 			{ "start": [ 9, 19], "duration": 10, "event": "ood", "rerun": true },
 			{ "start": [ 9, 26], "duration": 14, "event": "ccb2" },
 			{ "start": [10,  8], "duration": 21, "event": "b" },
-			{ "start": [ 9, 19], "duration": 10, "event": "ood", "rerun": true },
-			{ "start": [ 9, 26], "duration": 14, "event": "ccb2" },
-			{ "start": [10, 10], "duration": 21, "event": "b" },
 			{ "start": [11, 15], "duration": 14, "event": "riig" }
 			
 		]
