@@ -48,7 +48,6 @@
 	</aside>
 </div>
 <main>
-	<Banner text="New owner here! i hope i can continue this calendar!"/>
 	{#each pages as page}
 		<Schedule {page}/>
 	{/each}
