@@ -249,7 +249,11 @@
 			{ "start": [ 9,  5], "duration": 14, "event": "ola" },
 			{ "start": [ 9, 19], "duration": 10, "event": "ood", "rerun": true },
 			{ "start": [ 9, 26], "duration": 14, "event": "ccb2" },
-			{ "start": [10,  8], "duration": 21, "event": "b" }
+			{ "start": [10,  8], "duration": 21, "event": "b" },
+			{ "start": [ 9, 19], "duration": 10, "event": "ood", "rerun": true },
+			{ "start": [ 9, 26], "duration": 14, "event": "ccb2" },
+			{ "start": [10, 10], "duration": 21, "event": "b" },
+			{ "start": [11, 15], "duration": 14, "event": "riig" }
 			
 		]
 	},
@@ -349,10 +353,7 @@
 			{ "start": [ 7, 11], "duration": 14, "event": "tfn3" },
 			{ "start": [ 7, 25], "duration": 10, "event": "dv", "rerun": true },
 			{ "start": [ 8,  8], "duration": 14, "event": "ccowov" },
-			{ "start": [ 8, 22], "duration": 14, "event": "dos" },{ "start": [ 9, 19], "duration": 10, "event": "ood", "rerun": true },
-			{ "start": [ 9, 26], "duration": 14, "event": "ccb2" },
-			{ "start": [10, 10], "duration": 21, "event": "b" },
-			{ "start": [11, 15], "duration": 14, "event": "riig" }
+			{ "start": [ 8, 22], "duration": 14, "event": "dos" }
 		]
 	}
 }
