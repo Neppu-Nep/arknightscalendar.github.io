@@ -136,7 +136,12 @@
 			{ "start": [ 8,  1], "duration": 21, "event": "ihh" },
 			{ "start": [ 8, 22], "duration": 10, "event": "slahafh", "rerun": true },
 			{ "start": [ 9, 2], "duration": 14, "event": "dot"},
-			{ "start": [ 9, 19], "duration": 10, "event": "ccowov", "rerun": true }
+			{ "start": [ 9, 19], "duration": 10, "event": "ccowov", "rerun": true },
+			{ "start": [ 9, 27], "duration": 14, "event": "vb"},
+			{ "start": [10,  9], "duration": 14, "event": "eago"},
+			{ "start": [11,  1], "duration": 21, "event": "ipdv"},
+			{ "start": [11, 15], "duration": 14, "event": "sp"},
+			{ "start": [12,  5], "duration": 14, "event": "eftps"}
 			
 		]
 	},
@@ -249,8 +254,10 @@
 			{ "start": [ 9,  5], "duration": 14, "event": "ola" },
 			{ "start": [ 9, 19], "duration": 10, "event": "ood", "rerun": true },
 			{ "start": [ 9, 26], "duration": 14, "event": "ccb2" },
-			{ "start": [10,  8], "duration": 21, "event": "b" },
-			{ "start": [11, 15], "duration": 14, "event": "riig" }
+			{ "start": [10, 10], "duration": 21, "event": "b" },
+			{ "start": [11, 14], "duration": 14, "event": "riig" },
+			{ "start": [11, 21], "duration": 10, "event": "lt", "rerun": true },
+			{ "start": [12,  3], "duration": 14, "event": "pol" }
 			
 		]
 	},
@@ -350,7 +357,15 @@
 			{ "start": [ 7, 11], "duration": 14, "event": "tfn3" },
 			{ "start": [ 7, 25], "duration": 10, "event": "dv", "rerun": true },
 			{ "start": [ 8,  8], "duration": 14, "event": "ccowov" },
-			{ "start": [ 8, 22], "duration": 14, "event": "dos" }
+			{ "start": [ 8, 22], "duration": 14, "event": "dos" },
+			{ "start": [ 9, 24], "duration": 21, "event": "zih" },
+			{ "start": [10, 15], "duration": 10, "event": "is", "rerun": true },
+			{ "start": [10, 24], "duration": 14, "event": "ccb1" },
+			{ "start": [10, 31], "duration": 14, "event": "trtls" },
+			{ "start": [11, 14], "duration": 10, "event": "wtfc", "rerun": true },
+			{ "start": [11, 24], "duration": 10, "event": "wvwwnb", "rerun": true },
+			{ "start": [12,  4], "duration":  7, "event": "ttgv" }
+			
 		]
 	}
 }
