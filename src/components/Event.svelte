@@ -29,15 +29,15 @@
 		};
 	};
 
-	function showTooltip(mouseEvent) {
+	function showTooltip(mouseTouchEvent) {
 
 		if ($activePage !== "future") return;
 
 		const tooltip = document.querySelector(`.${event}-tooltip`);
 		if (!tooltip) return;
 
-		const mouseX = mouseEvent.clientX;
-		const mouseY = mouseEvent.clientY;
+		const mouseX = mouseTouchEvent.touches ? mouseTouchEvent.touches[0].clientX : mouseTouchEvent.clientX;
+		const mouseY = mouseTouchEvent.touches ? mouseTouchEvent.touches[0].clientY : mouseTouchEvent.clientY;
 		const tooltipRect = tooltip.getBoundingClientRect();
 
 		let left = mouseX - tooltipRect.width + 30;
@@ -100,6 +100,8 @@
 	on:mouseleave={overlapHover}
 	on:mousemove={showTooltip}
 	on:mouseleave={hideTooltip}
+	on:touchmove={showTooltip}
+	on:touchend={hideTooltip}
 >
 		{#if name} {text} {/if}
 </div>
