@@ -53,6 +53,8 @@
 		const tooltip = document.querySelector(`.${event}-tooltip`);
 		if (!tooltip) return;
 
+		tooltip.style.left = "0px";
+		tooltip.style.top = "0px";
 		tooltip.style.opacity = 0;
 		tooltip.style.zIndex = -1;
 	};

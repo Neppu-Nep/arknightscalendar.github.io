@@ -427,12 +427,12 @@ h1 {
 }
 
 .tooltip-item-icon {
-	width: 64px;
-	height: 64px;
+	width: clamp(32px, 10vw, 64px);
+	height: clamp(32px, 10vw, 64px);
 }
 
 .tooltip-item-stage {
-	font-size: 12px;
+	font-size: clamp(10px, 2.5vw, 12px);
 	color: #000;
 }
 
