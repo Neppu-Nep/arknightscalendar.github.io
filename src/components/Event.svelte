@@ -29,6 +29,31 @@
 		};
 	};
 
+	function showTooltip(mouseEvent) {
+
+		if ($activePage !== "future") return;
+
+		const tooltip = document.querySelector(`.${event}-tooltip`);
+		if (!tooltip) return;
+
+		const mouseX = mouseEvent.clientX;
+		const mouseY = mouseEvent.clientY;
+		const tooltipRect = tooltip.getBoundingClientRect();
+
+		let left = mouseX - tooltipRect.width + 30;
+		let top = mouseY - tooltipRect.height - 15;
+
+		tooltip.style.left = `${left}px`;
+		tooltip.style.top = `${top}px`;
+		tooltip.style.opacity = 1;
+	};
+
+	function hideTooltip() {
+		const tooltip = document.querySelector(`.${event}-tooltip`);
+		if (!tooltip) return;
+
+		tooltip.style.opacity = 0;
+	};
 
 	// Add title attribute on hover if text is overflowing.
 	let element, title;
@@ -70,6 +95,9 @@
 	on:click={getPermalink}
 	on:mouseenter={addTitle}
 	on:mouseenter={overlapHover}
-	on:mouseleave={overlapHover}>
+	on:mouseleave={overlapHover}
+	on:mousemove={showTooltip}
+	on:mouseleave={hideTooltip}
+>
 		{#if name} {text} {/if}
 </div>
