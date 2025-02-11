@@ -46,6 +46,7 @@
 		tooltip.style.left = `${left}px`;
 		tooltip.style.top = `${top}px`;
 		tooltip.style.opacity = 1;
+		tooltip.style.zIndex = 1000;
 	};
 
 	function hideTooltip() {
@@ -53,6 +54,7 @@
 		if (!tooltip) return;
 
 		tooltip.style.opacity = 0;
+		tooltip.style.zIndex = -1;
 	};
 
 	// Add title attribute on hover if text is overflowing.
