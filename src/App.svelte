@@ -44,7 +44,7 @@
 		{/each}
 	</nav>
 	<aside>
-		<a href="https://github.com/ArknightsCalendar/arknightscalendar.github.io"> </a>
+		<a href="https://github.com/Neppu-Nep/arknightscalendar.github.io"> </a>
 	</aside>
 </div>
 <main>
