@@ -1,4 +1,9 @@
 {
+    "act28side": {
+        "CV-6": "SugarPack",
+        "CV-7": "Grindstone",
+        "CV-8": "TransmutedSalt"
+    },
     "act36side": {
         "DT-7": "PolyesterPack",
         "DT-8": "IncandescentAlloy",
