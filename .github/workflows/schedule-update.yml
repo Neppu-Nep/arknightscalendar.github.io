@@ -1,0 +1,61 @@
+name: Schedule Update
+
+on:
+    schedule:
+      - cron: "0 */12 * * *"
+    workflow_dispatch:
+
+permissions:
+    pull-requests: write
+    contents: write
+
+jobs:
+    schedule-update:
+        runs-on: windows-latest
+        steps:
+            - name: Checkout Schedule
+              uses: actions/checkout@v4
+              with:
+                show-progress: false
+                ref: main
+
+            - name: Set up Python
+              uses: actions/setup-python@v5
+              with:
+                python-version: '3.12'
+
+            - name: Install dependencies
+              run: |
+                pip install requests
+
+            - name: Run update.py
+              run: |
+                python scripts/update.py
+              env:
+                PYTHONIOENCODING: "UTF-8"
+
+            - name: Add Changes
+              id: add_files
+              run: |
+                git status
+                git config user.name "$env:GITHUB_ACTOR"
+                git config user.email "$env:GITHUB_ACTOR@users.noreply.github.com"
+                git add .
+                $commit_msg = "${{ github.event.inputs.commit_message }}"
+                if (-not [string]::IsNullOrWhiteSpace($commit_msg)) {
+                    $commit_msg = $commit_msg.Trim()
+                } else {
+                    $commit_msg = ":star: Auto Update Schedule - $(Get-Date -Format 'yyyy-MM-dd')"
+                }
+                git commit -m "$commit_msg" -m "[skip changelog]"
+                if ($LASTEXITCODE -eq 0) {
+                    echo "have_commits=True" >> $env:GITHUB_OUTPUT
+                }
+                git pull origin $(git rev-parse --abbrev-ref HEAD) --unshallow --rebase
+
+            - name: Push changes
+              if: steps.add_files.outputs.have_commits == 'True'
+              uses: ad-m/github-push-action@master
+              with:
+                branch: main
+                github_token: ${{ secrets.GITHUB_TOKEN }}

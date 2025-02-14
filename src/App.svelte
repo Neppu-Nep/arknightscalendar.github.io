@@ -1,5 +1,4 @@
 <script>
-	import Banner from "./components/Banner.svelte";
 	import Button from "./components/Button.svelte";
 	import Schedule from "./components/Schedule.svelte";
 	import pages from "./data/pages.json";
@@ -16,7 +15,6 @@
 	};
 
 	const base = import.meta.env.MODE === "production" ? import.meta.env.BASE_URL : "";
-
 
 	// Permalinks
 	const params = new URLSearchParams(window.location.search);

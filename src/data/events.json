@@ -1,380 +1,1056 @@
 {
-	"future": {
-		"2025": [
-			{ "start": [ 2,  7], "duration":  7, "event": "akr" },
-			{ "start": [ 2, 28], "duration":  10, "event": "ccowov", "rerun": true },
-			{ "start": [ 3, 10], "duration":  14, "event": "dot" },
-			{ "start": [ 3, 25], "duration":  14, "event": "vb" }
-		]
-	},
-	"cn": {
-		"2019": [
-			{ "start": [ 5, 30], "duration": 14, "event": "gatkt" },
-			{ "start": [ 8, 27], "duration": 14, "event": "hosf" },
-			{ "start": [10, 15], "duration":  7, "event": "oi" },
-			{ "start": [11, 19], "duration": 14, "event": "cob" },
-			{ "start": [11, 19], "duration": 14, "event": "cc" }
-		],
-		"2020": [
-			{ "start": [ 1,  9], "duration":  7, "event": "af" },
-			{ "start": [ 2, 25], "duration":  7, "event": "soa" },
-			{ "start": [ 3, 17], "duration": 14, "event": "cc0" },
-			{ "start": [ 4, 21], "duration": 24, "event": "dm" },
-			{ "start": [ 6,  2], "duration": 14, "event": "cc1" },
-			{ "start": [ 6, 18], "duration":  7, "event": "cou" },
-			{ "start": [ 7,  9], "duration": 14, "event": "tow" },
-			{ "start": [ 7, 28], "duration": 14, "event": "cc2" },
-			{ "start": [ 8, 11], "duration": 10, "event": "hosf", "rerun": true },
-			{ "start": [ 8, 25], "duration": 14, "event": "gtgcr" },
-			{ "start": [ 8, 25], "duration": 21, "event": "is1" },
-			{ "start": [ 9, 24], "duration":  7, "event": "rb" },
-			{ "start": [10,  1], "duration": 10, "event": "gatkt", "rerun": true },
-			{ "start": [10, 15], "duration": 14, "event": "mn" },
-			{ "start": [11, 15], "duration": 14, "event": "cc3" },
-			{ "start": [12,  1], "duration": 10, "event": "cob", "rerun": true },
-			{ "start": [12, 17], "duration": 14, "event": "mb" }
-		],
-		"2021": [
-			{ "start": [ 1,  5], "duration":  7, "event": "bh" },
-			{ "start": [ 1, 19], "duration": 14, "event": "cc4" },
-			{ "start": [ 2,  5], "duration": 14, "event": "wir" },
-			{ "start": [ 3,  9], "duration": 14, "event": "ood" },
-			{ "start": [ 3,  9], "duration": 14, "event": "mc1" },
-			{ "start": [ 3, 30], "duration": 10, "event": "dm", "rerun": true },
-			{ "start": [ 4, 15], "duration": 14, "event": "awitd" },
-			{ "start": [ 5,  1], "duration": 14, "event": "ut" },
-			{ "start": [ 5, 15], "duration": 14, "event": "cc5" },
-			{ "start": [ 6,  1], "duration":  7, "event": "pl" },
-			{ "start": [ 6, 17], "duration": 10, "event": "tow", "rerun": true },
-			{ "start": [ 7,  2], "duration":  7, "event": "ic1" },
-			{ "start": [ 7, 13], "duration":  7, "event": "v" },
-			{ "start": [ 7, 20], "duration": 10, "event": "gtgcr", "rerun": true },
-			{ "start": [ 8,  3], "duration": 21, "event": "dh" },
-			{ "start": [ 8, 26], "duration": 14, "event": "cc6" },
-			{ "start": [10,  1], "duration": 10, "event": "mn", "rerun": true },
-			{ "start": [10, 15], "duration":  7, "event": "ps" },
-			{ "start": [11,  1], "duration": 21, "event": "nl" },
-			{ "start": [11, 22], "duration": 14, "event": "cc7" },
-			{ "start": [12,  7], "duration": 10, "event": "mb", "rerun": true },
-			{ "start": [12, 21], "duration": 14, "event": "bti" }
-		],
-		"2022": [
-			{ "start": [ 1, 10], "duration": 10, "event": "wir", "rerun": true },
-			{ "start": [ 1, 25], "duration": 14, "event": "itw" },
-			{ "start": [ 2, 15], "duration":  7, "event": "alsid" },
-			{ "start": [ 2, 24], "duration": 14, "event": "cc8" },
-			{ "start": [ 3, 15], "duration": 14, "event": "ga" },
-			{ "start": [ 3, 29], "duration": 10, "event": "awitd", "rerun": true },
-			{ "start": [ 5,  1], "duration": 21, "event": "sn" },
-			{ "start": [ 5, 19], "duration": 14, "event": "cc9" },
-			{ "start": [ 5, 30], "duration": 10, "event": "ut", "rerun": true },
-			{ "start": [ 6,  9], "duration": 14, "event": "le" },
-			{ "start": [ 7,  5], "duration": 14, "event": "dv" },
-			{ "start": [ 7, 19], "duration":  7, "event": "tbc" },
-			{ "start": [ 7, 26], "duration": 10, "event": "dh", "rerun": true },
-			{ "start": [ 8, 11], "duration": 21, "event": "icec" },
-			{ "start": [ 8, 18], "duration":  7, "event": "tfn1" },
-			{ "start": [ 8, 25], "duration": 14, "event": "cc10" },
-			{ "start": [ 9,  8], "duration":  7, "event": "aow" },
-			{ "start": [ 9, 15], "duration":  7, "event": "ibaw" },
-			{ "start": [ 9, 22], "duration": 10, "event": "nl", "rerun": true },
-			{ "start": [11,  1], "duration": 21, "event": "is" },
-			{ "start": [11, 15], "duration": 14, "event": "cc11" },
-			{ "start": [12,  1], "duration": 10, "event": "bti", "rerun": true },
-			{ "start": [12, 15], "duration": 14, "event": "wtfc" }
-		],
-		"2023": [
-			{ "start": [ 1,  1], "duration": 10, "event": "itw", "rerun": true },
-			{ "start": [ 1, 10], "duration":  7, "event": "tfn2" },
-			{ "start": [ 1, 17], "duration": 14, "event": "wvwwnb" },
-			{ "start": [ 1, 29], "duration": 35, "event": "ra1" },
-			{ "start": [ 2, 14], "duration":  7, "event": "adic" },
-			{ "start": [ 2, 21], "duration": 10, "event": "ga", "rerun": true },
-			{ "start": [ 3,  7], "duration": 14, "event": "afttf" },
-			{ "start": [ 3, 21], "duration": 14, "event": "cc12" },
-			{ "start": [ 4, 20], "duration": 10, "event": "sn", "rerun": true },
-			{ "start": [ 5,  1], "duration": 21, "event": "lt" },
-			{ "start": [ 5, 22], "duration": 14, "event": "peo" },
-			{ "start": [ 6,  8], "duration": 14, "event": "hde" },
-			{ "start": [ 6, 20], "duration": 10, "event": "le", "rerun": true },
-			{ "start": [ 7,  6], "duration":  7, "event": "tbfwad" },
-			{ "start": [ 7, 18], "duration": 10, "event": "dv", "rerun": true },
-			{ "start": [ 8,  1], "duration": 21, "event": "slahafh" },
-			{ "start": [ 8, 18], "duration": 14, "event": "tfn3" },
-			{ "start": [ 8, 31], "duration": 10, "event": "icec", "rerun": true },
-			{ "start": [ 9,  5], "duration": 14, "event": "ccowov" },
-			{ "start": [ 9, 27], "duration": 14, "event": "dos" },
-			{ "start": [10, 22], "duration": 10, "event": "is", "rerun": true },
-			{ "start": [11,  1], "duration": 21, "event": "zih" },
-			{ "start": [11, 21], "duration": 14, "event": "ccb1" },
-			{ "start": [12,  5], "duration": 14, "event": "trtls" },
-			{ "start": [12, 22], "duration": 10, "event": "wtfc", "rerun": true }
-		],
-		"2024": [
-			{ "start": [ 1,  9], "duration":  7, "event": "ttgv" },
-			{ "start": [ 1, 18], "duration": 10, "event": "wvwwnb", "rerun": true },
-			{ "start": [ 2,  1], "duration": 21, "event": "haps" },
-			{ "start": [ 2, 22], "duration": 14, "event": "tfn4" },
-			{ "start": [ 3,  7], "duration": 14, "event": "ola" },
-			{ "start": [ 3, 21], "duration": 10, "event": "ood", "rerun": true },
-			{ "start": [ 3, 28], "duration": 14, "event": "ccb2" },
-			{ "start": [ 4, 11], "duration": 22, "event": "b" },
-			{ "start": [ 5, 15], "duration": 14, "event": "riig" },
-			{ "start": [ 5, 24], "duration": 10, "event": "lt", "rerun": true },
-			{ "start": [ 6,  5], "duration": 14, "event": "pol" },
-			{ "start": [ 6, 25], "duration": 10, "event": "hde", "rerun": true },
-			{ "start": [ 7,  9], "duration":  7, "event": "akr" },
-			{ "start": [ 8,  1], "duration": 21, "event": "ihh" },
-			{ "start": [ 8, 22], "duration": 10, "event": "slahafh", "rerun": true },
-			{ "start": [ 9,  2], "duration": 14, "event": "dot" },
-			{ "start": [ 9, 19], "duration": 10, "event": "ccowov", "rerun": true },
-			{ "start": [ 9, 27], "duration": 14, "event": "vb" },
-			{ "start": [10,  9], "duration": 14, "event": "eago" },
-			{ "start": [11,  1], "duration": 21, "event": "ipdv" },
-			{ "start": [11, 15], "duration": 14, "event": "sp" },
-			{ "start": [12,  5], "duration": 14, "event": "eftps" },
-			{ "start": [12, 19], "duration": 10, "event": "trtls", "rerun": true },
-			{ "start": [12, 29], "duration": 14, "event": "pvm" }
-		],
-		"2025": [
-			{ "start": [ 1, 22], "duration": 21, "event": "sitjoor" },
-			{ "start": [ 2,  5], "duration": 14, "event": "ccb3" },
-			{ "start": [ 2, 14], "duration":  7, "event": "sys" }
-		]
-	},
-	"en": {
-		"2020": [
-			{ "start": [ 2,  5], "duration": 14, "event": "gatkt" },
-			{ "start": [ 3, 25], "duration":  7, "event": "oi" },
-			{ "start": [ 4, 29], "duration": 14, "event": "hosf" },
-			{ "start": [ 5, 27], "duration": 14, "event": "cob" },
-			{ "start": [ 6, 12], "duration": 14, "event": "cc" },
-			{ "start": [ 7, 29], "duration":  7, "event": "af" },
-			{ "start": [ 8, 26], "duration":  7, "event": "soa" },
-			{ "start": [ 9, 10], "duration": 14, "event": "cc0" },
-			{ "start": [ 9, 29], "duration":  7, "event": "cou" },
-			{ "start": [10, 28], "duration": 14, "event": "tow" },
-			{ "start": [11, 11], "duration": 14, "event": "cc1" },
-			{ "start": [11, 26], "duration": 10, "event": "gatkt", "rerun": true },
-			{ "start": [12, 10], "duration": 21, "event": "dm" }
-		],
-		"2021": [
-			{ "start": [ 1, 20], "duration": 10, "event": "hosf", "rerun": true },
-			{ "start": [ 2,  4], "duration": 14, "event": "cc2" },
-			{ "start": [ 2, 25], "duration": 14, "event": "gtgcr" },
-			{ "start": [ 2, 25], "duration": 21, "event": "is1" },
-			{ "start": [ 3, 25], "duration":  7, "event": "rb" },
-			{ "start": [ 4,  8], "duration": 14, "event": "mn" },
-			{ "start": [ 5, 14], "duration": 10, "event": "cob", "rerun": true },
-			{ "start": [ 5, 28], "duration": 14, "event": "cc3" },
-			{ "start": [ 6, 22], "duration": 14, "event": "mb" },
-			{ "start": [ 7,  6], "duration":  7, "event": "bh" },
-			{ "start": [ 7, 13], "duration": 14, "event": "cc4" },
-			{ "start": [ 7, 30], "duration": 14, "event": "wir" },
-			{ "start": [ 8, 18], "duration": 14, "event": "ood" },
-			{ "start": [ 8, 18], "duration": 14, "event": "mc1" },
-			{ "start": [ 9,  7], "duration": 10, "event": "dm", "rerun": true },
-			{ "start": [ 9, 30], "duration": 14, "event": "awitd" },
-			{ "start": [10, 21], "duration": 14, "event": "ut" },
-			{ "start": [11, 11], "duration": 14, "event": "cc5" },
-			{ "start": [12,  9], "duration":  7, "event": "pl" },
-			{ "start": [12, 17], "duration": 10, "event": "tow", "rerun": true },
-			{ "start": [12, 29], "duration":  7, "event": "ic1" }
-		],
-		"2022": [
-			{ "start": [ 1, 14], "duration": 21, "event": "dh" },
-			{ "start": [ 2,  4], "duration": 10, "event": "gtgcr", "rerun": true },
-			{ "start": [ 2, 17], "duration":  7, "event": "v" },
-			{ "start": [ 3,  1], "duration": 14, "event": "cc6" },
-			{ "start": [ 3, 31], "duration": 10, "event": "mn", "rerun": true },
-			{ "start": [ 4, 14], "duration":  7, "event": "ps" },
-			{ "start": [ 4, 28], "duration": 21, "event": "nl" },
-			{ "start": [ 5, 26], "duration": 10, "event": "mb", "rerun": true },
-			{ "start": [ 6,  9], "duration": 14, "event": "cc7" },
-			{ "start": [ 6, 30], "duration": 14, "event": "bti" },
-			{ "start": [ 7, 14], "duration": 10, "event": "wir", "rerun": true },
-			{ "start": [ 7, 29], "duration": 14, "event": "itw" },
-			{ "start": [ 8, 18], "duration":  7, "event": "alsid" },
-			{ "start": [ 8, 30], "duration": 14, "event": "cc8" },
-			{ "start": [ 9, 16], "duration": 14, "event": "ga" },
-			{ "start": [10,  4], "duration": 10, "event": "awitd", "rerun": true },
-			{ "start": [11,  3], "duration": 21, "event": "sn" },
-			{ "start": [11, 25], "duration": 10, "event": "ut", "rerun": true },
-			{ "start": [12,  8], "duration": 14, "event": "cc9" },
-			{ "start": [12, 27], "duration": 14, "event": "le" }
-		],
-		"2023": [
-			{ "start": [ 1, 13], "duration": 21, "event": "icec" },
-			{ "start": [ 1, 20], "duration":  7, "event": "tfn1" },
-			{ "start": [ 2,  3], "duration": 14, "event": "cc10" },
-			{ "start": [ 2, 17], "duration":  7, "event": "tbc" },
-			{ "start": [ 2, 28], "duration": 10, "event": "dh", "rerun": true },
-			{ "start": [ 3, 14], "duration": 14, "event": "dv" },
-			{ "start": [ 3, 31], "duration":  7, "event": "aow" },
-			{ "start": [ 4,  7], "duration":  7, "event": "ibaw" },
-			{ "start": [ 4, 14], "duration": 10, "event": "nl", "rerun": true },
-			{ "start": [ 5, 23], "duration": 21, "event": "is" },
-			{ "start": [ 6, 13], "duration": 10, "event": "bti", "rerun": true },
-			{ "start": [ 6, 23], "duration": 14, "event": "cc11" },
-			{ "start": [ 7, 13], "duration": 14, "event": "wtfc" },
-			{ "start": [ 7, 28], "duration": 14, "event": "wvwwnb" },
-			{ "start": [ 8, 11], "duration": 10, "event": "itw", "rerun": true },
-			{ "start": [ 8, 22], "duration":  7, "event": "adic" },
-			{ "start": [ 8, 31], "duration":  7, "event": "tfn2" },
-			{ "start": [ 9,  7], "duration": 35, "event": "ra1" },
-			{ "start": [ 9,  7], "duration": 14, "event": "afttf" },
-			{ "start": [ 9, 21], "duration": 10, "event": "ga", "rerun": true },
-			{ "start": [10,  1], "duration": 14, "event": "cc12" },
-			{ "start": [11,  7], "duration": 21, "event": "lt" },
-			{ "start": [11, 28], "duration": 10, "event": "sn", "rerun": true },
-			{ "start": [12,  5], "duration": 14, "event": "peo" },
-			{ "start": [12, 21], "duration": 14, "event": "hde" }
-		],
-		"2024": [
-			{ "start": [ 1,  5], "duration": 10, "event": "le", "rerun": true },
-			{ "start": [ 1, 16], "duration": 21, "event": "slahafh" },
-			{ "start": [ 2,  6], "duration": 10, "event": "icec", "rerun": true },
-			{ "start": [ 2, 12], "duration": 14, "event": "tfn3" },
-			{ "start": [ 2, 27], "duration":  7, "event": "tbfwad" },
-			{ "start": [ 3,  5], "duration": 10, "event": "dv", "rerun": true },
-			{ "start": [ 3, 19], "duration": 14, "event": "ccowov" },
-			{ "start": [ 4,  2], "duration": 14, "event": "dos" },
-			{ "start": [ 4, 30], "duration": 21, "event": "zih" },
-			{ "start": [ 5, 23], "duration": 10, "event": "is", "rerun": true },
-			{ "start": [ 6,  5], "duration": 14, "event": "ccb1" },
-			{ "start": [ 6, 21], "duration": 14, "event": "trtls" },
-			{ "start": [ 7,  9], "duration":  7, "event": "ttgv" },
-			{ "start": [ 7, 18], "duration": 10, "event": "wvwwnb", "rerun": true },
-			{ "start": [ 7, 31], "duration": 21, "event": "haps" },
-			{ "start": [ 8, 14], "duration": 14, "event": "tfn4" },
-			{ "start": [ 8, 21], "duration": 10, "event": "wtfc", "rerun": true },
-			{ "start": [ 9,  5], "duration": 14, "event": "ola" },
-			{ "start": [ 9, 19], "duration": 10, "event": "ood", "rerun": true },
-			{ "start": [ 9, 26], "duration": 14, "event": "ccb2" },
-			{ "start": [10, 10], "duration": 21, "event": "b" },
-			{ "start": [11, 14], "duration": 14, "event": "riig" },
-			{ "start": [11, 21], "duration": 10, "event": "lt", "rerun": true },
-			{ "start": [12,  3], "duration": 14, "event": "pol" },
-			{ "start": [12, 24], "duration": 10, "event": "hde", "rerun": true }
-		],
-		"2025": [
-			{ "start": [ 1,  3], "duration": 10, "event": "slahafh", "rerun": true },
-			{ "start": [ 1, 16], "duration": 21, "event": "ihh" },
-			{ "start": [ 2,  7], "duration":  7, "event": "akr" }
-		]
-	},
-	"tw": {
-		"2020": [
-			{ "start": [ 7, 23], "duration": 14, "event": "gatkt" },
-			{ "start": [ 9, 10], "duration":  7, "event": "oi" },
-			{ "start": [10, 14], "duration": 14, "event": "hosf" },
-			{ "start": [11,  9], "duration": 14, "event": "cob" },
-			{ "start": [12,  3], "duration": 14, "event": "cc" }
-		],
-		"2021": [
-			{ "start": [ 1, 21], "duration":  7, "event": "soa" },
-			{ "start": [ 2,  4], "duration":  7, "event": "af" },
-			{ "start": [ 3,  4], "duration": 14, "event": "cc0" },
-			{ "start": [ 3, 18], "duration":  7, "event": "cou" },
-			{ "start": [ 4,  1], "duration": 14, "event": "tow" },
-			{ "start": [ 4, 15], "duration": 14, "event": "cc1" },
-			{ "start": [ 4, 29], "duration": 10, "event": "gatkt", "rerun": true },
-			{ "start": [ 5, 13], "duration": 21, "event": "dm" },
-			{ "start": [ 6, 10], "duration": 11, "event": "hosf", "rerun": true },
-			{ "start": [ 6, 24], "duration": 14, "event": "gtgcr" },
-			{ "start": [ 6, 24], "duration": 21, "event": "is1" },
-			{ "start": [ 7, 15], "duration": 14, "event": "cc2" },
-			{ "start": [ 7, 29], "duration":  7, "event": "rb" },
-			{ "start": [ 8, 12], "duration": 14, "event": "mn" },
-			{ "start": [ 9,  9], "duration": 14, "event": "ood" },
-			{ "start": [ 9,  9], "duration": 14, "event": "mc1" },
-			{ "start": [ 9, 23], "duration": 14, "event": "cc3" },
-			{ "start": [10, 14], "duration": 11, "event": "cob", "rerun": true },
-			{ "start": [10, 28], "duration": 14, "event": "mb" },
-			{ "start": [11, 11], "duration":  7, "event": "bh" },
-			{ "start": [11, 25], "duration": 14, "event": "cc4" },
-			{ "start": [12,  9], "duration": 11, "event": "dm", "rerun": true },
-			{ "start": [12, 23], "duration": 14, "event": "wir" }
-		],
-		"2022": [
-			{ "start": [ 1, 11], "duration": 14, "event": "awitd" },
-			{ "start": [ 1, 26], "duration": 14, "event": "ut" },
-			{ "start": [ 2, 15], "duration": 14, "event": "cc5" },
-			{ "start": [ 3,  8], "duration":  7, "event": "pl" },
-			{ "start": [ 3, 22], "duration": 10, "event": "tow", "rerun": true },
-			{ "start": [ 4,  6], "duration":  7, "event": "ic1" },
-			{ "start": [ 4, 16], "duration":  7, "event": "v" },
-			{ "start": [ 4, 26], "duration": 10, "event": "gtgcr", "rerun": true },
-			{ "start": [ 5, 10], "duration": 21, "event": "dh" },
-			{ "start": [ 6,  1], "duration": 14, "event": "cc6" },
-			{ "start": [ 7,  6], "duration": 10, "event": "mn", "rerun": true },
-			{ "start": [ 7, 20], "duration":  7, "event": "ps" },
-			{ "start": [ 8,  4], "duration": 21, "event": "nl" },
-			{ "start": [ 8, 30], "duration": 14, "event": "cc7" },
-			{ "start": [ 9, 14], "duration": 10, "event": "mb", "rerun": true },
-			{ "start": [ 9, 29], "duration": 14, "event": "bti" },
-			{ "start": [10, 13], "duration": 10, "event": "wir", "rerun": true },
-			{ "start": [10, 27], "duration": 14, "event": "itw" },
-			{ "start": [11, 17], "duration":  7, "event": "alsid" },
-			{ "start": [12,  1], "duration": 14, "event": "cc8" },
-			{ "start": [12, 15], "duration": 10, "event": "awitd", "rerun": true },
-			{ "start": [12, 29], "duration": 14, "event": "ga" }
-		],
-		"2023": [
-			{ "start": [ 1, 31], "duration": 21, "event": "sn" },
-			{ "start": [ 2, 23], "duration": 10, "event": "ut", "rerun": true },
-			{ "start": [ 3,  9], "duration": 14, "event": "cc9" },
-			{ "start": [ 3, 28], "duration": 14, "event": "le" },
-			{ "start": [ 4, 13], "duration": 14, "event": "dv" },
-			{ "start": [ 4, 27], "duration":  7, "event": "tbc" },
-			{ "start": [ 5,  4], "duration": 10, "event": "dh", "rerun": true },
-			{ "start": [ 5, 16], "duration":  7, "event": "aow" },
-			{ "start": [ 5, 30], "duration": 10, "event": "nl", "rerun": true },
-			{ "start": [ 6, 13], "duration":  7, "event": "ibaw" },
-			{ "start": [ 6, 20], "duration": 21, "event": "icec" },
-			{ "start": [ 6, 27], "duration":  7, "event": "tfn1" },
-			{ "start": [ 7, 13], "duration": 14, "event": "cc10" },
-			{ "start": [ 8, 29], "duration": 10, "event": "bti", "rerun": true },
-			{ "start": [ 9, 12], "duration": 21, "event": "is" },
-			{ "start": [10,  3], "duration": 14, "event": "cc11" },
-			{ "start": [10, 19], "duration": 14, "event": "wtfc" },
-			{ "start": [11,  2], "duration": 10, "event": "itw", "rerun": true },
-			{ "start": [11, 14], "duration":  7, "event": "tfn2" },
-			{ "start": [11, 21], "duration": 14, "event": "wvwwnb" },
-			{ "start": [12, 12], "duration": 14, "event": "afttf" },
-			{ "start": [12, 12], "duration": 35, "event": "ra1" }
-		],
-		"2024": [
-			{ "start": [ 1,  9], "duration":  7, "event": "adic" },
-			{ "start": [ 1, 23], "duration": 10, "event": "ga", "rerun": true },
-			{ "start": [ 2,  6], "duration": 14, "event": "cc12" },
-			{ "start": [ 3,  7], "duration": 10, "event": "sn", "rerun": true },
-			{ "start": [ 3, 19], "duration": 21, "event": "lt" },
-			{ "start": [ 4,  9], "duration": 14, "event": "peo" },
-			{ "start": [ 4, 25], "duration": 14, "event": "hde" },
-			{ "start": [ 5, 14], "duration": 10, "event": "le", "rerun": true },
-			{ "start": [ 5, 24], "duration": 10, "event": "icec", "rerun": true },
-			{ "start": [ 6, 13], "duration":  7, "event": "tbfwad" },
-			{ "start": [ 6, 27], "duration": 21, "event": "slahafh" },
-			{ "start": [ 7, 11], "duration": 14, "event": "tfn3" },
-			{ "start": [ 7, 25], "duration": 10, "event": "dv", "rerun": true },
-			{ "start": [ 8,  8], "duration": 14, "event": "ccowov" },
-			{ "start": [ 8, 22], "duration": 14, "event": "dos" },
-			{ "start": [ 9, 24], "duration": 21, "event": "zih" },
-			{ "start": [10, 15], "duration": 10, "event": "is", "rerun": true },
-			{ "start": [10, 24], "duration": 14, "event": "ccb1" },
-			{ "start": [10, 31], "duration": 14, "event": "trtls" },
-			{ "start": [11, 14], "duration": 10, "event": "wtfc", "rerun": true },
-			{ "start": [11, 24], "duration": 10, "event": "wvwwnb", "rerun": true },
-			{ "start": [12,  4], "duration":  7, "event": "ttgv" },
-			{ "start": [12, 18], "duration":  14, "event": "ola" }
-		],
-		"2025": [
-			{ "start": [ 1,  1], "duration":  10, "event": "ood", "rerun": true },
-			{ "start": [ 1, 11], "duration": 14, "event": "tfn4" },
-			{ "start": [ 1, 20], "duration": 21, "event": "haps" },
-			{ "start": [ 2,  6], "duration": 14, "event": "ccb2" },
-			{ "start": [ 2, 11], "duration": 14, "event": "b" }
-		]
-	}
+    "en": {
+        "2020": [
+            {
+                "duration": 14,
+                "event": "a1stact",
+                "name": "Grani and the Knights' Treasure",
+                "start": [
+                    2,
+                    5
+                ]
+            },
+            {
+                "duration": 7,
+                "event": "act4d0",
+                "name": "Operational Intelligence",
+                "start": [
+                    3,
+                    25
+                ]
+            },
+            {
+                "duration": 14,
+                "event": "act3d0",
+                "name": "Heart of Surging Flame",
+                "start": [
+                    4,
+                    29
+                ]
+            },
+            {
+                "duration": 14,
+                "event": "act5d0",
+                "name": "Code of Brawl",
+                "start": [
+                    5,
+                    27
+                ]
+            },
+            {
+                "duration": 14,
+                "event": "act5d1",
+                "name": "Contingency Contract",
+                "start": [
+                    6,
+                    12
+                ]
+            },
+            {
+                "duration": 7,
+                "event": "act6d5",
+                "name": "Ancient Forge",
+                "start": [
+                    7,
+                    29
+                ]
+            },
+            {
+                "duration": 7,
+                "event": "act7d5",
+                "name": "Stories of Afternoon",
+                "start": [
+                    8,
+                    26
+                ]
+            },
+            {
+                "duration": 14,
+                "event": "rune_season_0_1",
+                "name": "Contingency Contract #0: Operation Barrenland",
+                "start": [
+                    9,
+                    10
+                ]
+            },
+            {
+                "duration": 7,
+                "event": "act10d5",
+                "name": "Children of Ursus",
+                "start": [
+                    9,
+                    29
+                ]
+            },
+            {
+                "duration": 14,
+                "event": "act11d0",
+                "name": "Twilight of Wolumonde",
+                "start": [
+                    10,
+                    28
+                ]
+            },
+            {
+                "duration": 14,
+                "event": "rune_season_1_1",
+                "name": "Contingency Contract #1: Operation Pyrite",
+                "start": [
+                    11,
+                    11
+                ]
+            },
+            {
+                "duration": 10,
+                "event": "act13d2",
+                "name": "Grani and the Knights' Treasure - Rerun",
+                "rerun": "a1stact",
+                "start": [
+                    11,
+                    26
+                ]
+            },
+            {
+                "duration": 21,
+                "event": "act9d0",
+                "name": "Darknights Memoir",
+                "start": [
+                    12,
+                    10
+                ]
+            }
+        ],
+        "2021": [
+            {
+                "duration": 10,
+                "event": "act11d7",
+                "name": "Heart of Surging Flame - Rerun",
+                "rerun": "act3d0",
+                "start": [
+                    1,
+                    20
+                ]
+            },
+            {
+                "duration": 14,
+                "event": "rune_season_2_1",
+                "name": "Contingency Contract #2: Operation Blade",
+                "start": [
+                    2,
+                    4
+                ]
+            },
+            {
+                "duration": 14,
+                "event": "act12d0",
+                "name": "The Great Chief Returns",
+                "start": [
+                    2,
+                    25
+                ]
+            },
+            {
+                "duration": 21,
+                "event": "act12d6",
+                "name": "Ceobe's Fungimist",
+                "start": [
+                    2,
+                    25
+                ]
+            },
+            {
+                "duration": 7,
+                "event": "act13d0",
+                "name": "Rewinding Breeze",
+                "start": [
+                    3,
+                    25
+                ]
+            },
+            {
+                "duration": 14,
+                "event": "act13d5",
+                "name": "Maria Nearl",
+                "start": [
+                    4,
+                    8
+                ]
+            },
+            {
+                "duration": 10,
+                "event": "act14d7",
+                "name": "Code of Brawl - Rerun",
+                "rerun": "act5d0",
+                "start": [
+                    5,
+                    14
+                ]
+            },
+            {
+                "duration": 14,
+                "event": "rune_season_3_1",
+                "name": "Contingency Contract #3: Operation Cinder",
+                "start": [
+                    5,
+                    28
+                ]
+            },
+            {
+                "duration": 14,
+                "event": "act15d0",
+                "name": "Mansfield Break",
+                "start": [
+                    6,
+                    22
+                ]
+            },
+            {
+                "duration": 7,
+                "event": "act15d5",
+                "name": "Beyond Here",
+                "start": [
+                    7,
+                    6
+                ]
+            },
+            {
+                "duration": 14,
+                "event": "rune_season_4_1",
+                "name": "Contingency Contract #4: Operation Lead Seal",
+                "start": [
+                    7,
+                    13
+                ]
+            },
+            {
+                "duration": 14,
+                "event": "act16d5",
+                "name": "Who Is Real",
+                "start": [
+                    7,
+                    30
+                ]
+            },
+            {
+                "duration": 14,
+                "event": "act17d0",
+                "name": "Operation Originium Dust",
+                "start": [
+                    8,
+                    18
+                ]
+            },
+            {
+                "duration": 14,
+                "event": "act17d1",
+                "name": "Defense Protocols",
+                "start": [
+                    8,
+                    18
+                ]
+            },
+            {
+                "duration": 10,
+                "event": "act17d5",
+                "name": "Darknights Memoir - Rerun",
+                "rerun": "act9d0",
+                "start": [
+                    9,
+                    7
+                ]
+            },
+            {
+                "duration": 14,
+                "event": "act18d0",
+                "name": "A Walk in the Dust",
+                "start": [
+                    9,
+                    30
+                ]
+            },
+            {
+                "duration": 14,
+                "event": "act18d3",
+                "name": "Under Tides",
+                "start": [
+                    10,
+                    21
+                ]
+            },
+            {
+                "duration": 14,
+                "event": "rune_season_5_1",
+                "name": "Contingency Contract #5: Operation Spectrum",
+                "start": [
+                    11,
+                    11
+                ]
+            },
+            {
+                "duration": 7,
+                "event": "act7mini",
+                "name": "Preluding Lights",
+                "start": [
+                    12,
+                    9
+                ]
+            },
+            {
+                "duration": 10,
+                "event": "act5sre",
+                "name": "Twilight of Wolumonde - Rerun",
+                "rerun": "act11d0",
+                "start": [
+                    12,
+                    17
+                ]
+            },
+            {
+                "duration": 7,
+                "event": "act1lock",
+                "name": "Hymnoi Wisdom",
+                "start": [
+                    12,
+                    29
+                ]
+            }
+        ],
+        "2022": [
+            {
+                "duration": 21,
+                "event": "act12side",
+                "name": "Dossoles Holiday",
+                "start": [
+                    1,
+                    14
+                ]
+            },
+            {
+                "duration": 10,
+                "event": "act6sre",
+                "name": "The Great Chief Returns - Rerun",
+                "rerun": "act12d0",
+                "start": [
+                    2,
+                    4
+                ]
+            },
+            {
+                "duration": 7,
+                "event": "act8mini",
+                "name": "Vigilo",
+                "start": [
+                    2,
+                    17
+                ]
+            },
+            {
+                "duration": 14,
+                "event": "rune_season_6_1",
+                "name": "Contingency Contract #6: Operation Wild Scales",
+                "start": [
+                    3,
+                    1
+                ]
+            },
+            {
+                "duration": 10,
+                "event": "act7sre",
+                "name": "Maria Nearl - Rerun",
+                "rerun": "act13d5",
+                "start": [
+                    3,
+                    31
+                ]
+            },
+            {
+                "duration": 7,
+                "event": "act17d7",
+                "name": "April Fools' Day Event",
+                "start": [
+                    4,
+                    1
+                ]
+            },
+            {
+                "duration": 7,
+                "event": "act9mini",
+                "name": "Pinus Sylvestris",
+                "start": [
+                    4,
+                    14
+                ]
+            },
+            {
+                "duration": 21,
+                "event": "act13side",
+                "name": "Near Light",
+                "start": [
+                    4,
+                    28
+                ]
+            },
+            {
+                "duration": 10,
+                "event": "act8sre",
+                "name": "Mansfield Break - Rerun",
+                "rerun": "act15d0",
+                "start": [
+                    5,
+                    26
+                ]
+            },
+            {
+                "duration": 14,
+                "event": "rune_season_7_1",
+                "name": "Contingency Contract #7: Operation Pine Soot",
+                "start": [
+                    6,
+                    9
+                ]
+            },
+            {
+                "duration": 14,
+                "event": "act14side",
+                "name": "Break the Ice",
+                "start": [
+                    6,
+                    30
+                ]
+            },
+            {
+                "duration": 10,
+                "event": "act9sre",
+                "name": "Who Is Real - Rerun",
+                "rerun": "act16d5",
+                "start": [
+                    7,
+                    14
+                ]
+            },
+            {
+                "duration": 14,
+                "event": "act15side",
+                "name": "Invitation to Wine",
+                "start": [
+                    7,
+                    29
+                ]
+            },
+            {
+                "duration": 7,
+                "event": "act10mini",
+                "name": "A Light Spark in Darkness",
+                "start": [
+                    8,
+                    18
+                ]
+            },
+            {
+                "duration": 14,
+                "event": "rune_season_8_1",
+                "name": "Contingency Contract #8: Operation Dawnseeker",
+                "start": [
+                    8,
+                    30
+                ]
+            },
+            {
+                "duration": 14,
+                "event": "act16side",
+                "name": "Guide Ahead",
+                "start": [
+                    9,
+                    16
+                ]
+            },
+            {
+                "duration": 10,
+                "event": "act10sre",
+                "name": "A Walk in the Dust - Rerun",
+                "rerun": "act18d0",
+                "start": [
+                    10,
+                    4
+                ]
+            },
+            {
+                "duration": 21,
+                "event": "act17side",
+                "name": "Stultifera Navis",
+                "start": [
+                    11,
+                    3
+                ]
+            },
+            {
+                "duration": 10,
+                "event": "act11sre",
+                "name": "Under Tides - Rerun",
+                "rerun": "act18d3",
+                "start": [
+                    11,
+                    25
+                ]
+            },
+            {
+                "duration": 14,
+                "event": "rune_season_9_1",
+                "name": "Contingency Contract #9: Operation Deepness",
+                "start": [
+                    12,
+                    8
+                ]
+            },
+            {
+                "duration": 14,
+                "event": "act18side",
+                "name": "Lingering Echoes",
+                "start": [
+                    12,
+                    27
+                ]
+            }
+        ],
+        "2023": [
+            {
+                "duration": 21,
+                "event": "act20side",
+                "name": "Ideal City: Endless Carnival",
+                "start": [
+                    1,
+                    13
+                ]
+            },
+            {
+                "duration": 7,
+                "event": "act1bossrush",
+                "name": "Trials for Navigator",
+                "start": [
+                    1,
+                    20
+                ]
+            },
+            {
+                "duration": 14,
+                "event": "rune_season_10_1",
+                "name": "Contingency Contract #10: Operation Ashring",
+                "start": [
+                    2,
+                    3
+                ]
+            },
+            {
+                "duration": 7,
+                "event": "act11mini",
+                "name": "To Be Continued",
+                "start": [
+                    2,
+                    17
+                ]
+            },
+            {
+                "duration": 10,
+                "event": "act12sre",
+                "name": "Dossoles Holiday",
+                "rerun": "act12side",
+                "start": [
+                    2,
+                    28
+                ]
+            },
+            {
+                "duration": 14,
+                "event": "act19side",
+                "name": "Dorothy's Vision",
+                "start": [
+                    3,
+                    14
+                ]
+            },
+            {
+                "duration": 7,
+                "event": "act12mini",
+                "name": "An Obscure Wanderer",
+                "start": [
+                    3,
+                    31
+                ]
+            },
+            {
+                "duration": 7,
+                "event": "act3fun",
+                "name": "April Fools' Day Event",
+                "start": [
+                    4,
+                    1
+                ]
+            },
+            {
+                "duration": 7,
+                "event": "act13mini",
+                "name": "It's Been a While",
+                "start": [
+                    4,
+                    7
+                ]
+            },
+            {
+                "duration": 10,
+                "event": "act13sre",
+                "name": "Near Light - Rerun",
+                "rerun": "act13side",
+                "start": [
+                    4,
+                    14
+                ]
+            },
+            {
+                "duration": 21,
+                "event": "act21side",
+                "name": "IL Siracusano",
+                "start": [
+                    5,
+                    23
+                ]
+            },
+            {
+                "duration": 10,
+                "event": "act14sre",
+                "name": "Break the Ice - Rerun",
+                "rerun": "act14side",
+                "start": [
+                    6,
+                    13
+                ]
+            },
+            {
+                "duration": 14,
+                "event": "rune_season_11_1",
+                "name": "Contingency Contract #11: Operation Fake Waves",
+                "start": [
+                    6,
+                    23
+                ]
+            },
+            {
+                "duration": 14,
+                "event": "act22side",
+                "name": "What the Firelight Casts",
+                "start": [
+                    7,
+                    13
+                ]
+            },
+            {
+                "duration": 14,
+                "event": "act23side",
+                "name": "Where Vernal Winds Will Never Blow",
+                "start": [
+                    7,
+                    28
+                ]
+            },
+            {
+                "duration": 10,
+                "event": "act15sre",
+                "name": "Invitation to Wine - Rerun",
+                "rerun": "act15side",
+                "start": [
+                    8,
+                    11
+                ]
+            },
+            {
+                "duration": 7,
+                "event": "act14mini",
+                "name": "A Death in Chunfen",
+                "start": [
+                    8,
+                    22
+                ]
+            },
+            {
+                "duration": 7,
+                "event": "act2bossrush",
+                "name": "Trials for Navigator",
+                "start": [
+                    8,
+                    31
+                ]
+            },
+            {
+                "duration": 35,
+                "event": "act1sandbox",
+                "name": "Reclamation Algorithm - Fire Within the Sand",
+                "start": [
+                    9,
+                    7
+                ]
+            },
+            {
+                "duration": 14,
+                "event": "act24side",
+                "name": "A Flurry to the Flame",
+                "start": [
+                    9,
+                    7
+                ]
+            },
+            {
+                "duration": 10,
+                "event": "act16sre",
+                "name": "Guide Ahead - Rerun",
+                "rerun": "act16side",
+                "start": [
+                    9,
+                    21
+                ]
+            },
+            {
+                "duration": 14,
+                "event": "rune_season_12_1",
+                "name": "Contingency Contract #12: Operation Basepoint",
+                "start": [
+                    10,
+                    1
+                ]
+            },
+            {
+                "duration": 21,
+                "event": "act25side",
+                "name": "Lone Trail",
+                "start": [
+                    11,
+                    7
+                ]
+            },
+            {
+                "duration": 10,
+                "event": "act17sre",
+                "name": "Stultifera Navis - Rerun",
+                "rerun": "act17side",
+                "start": [
+                    11,
+                    28
+                ]
+            },
+            {
+                "duration": 14,
+                "event": "act38d1",
+                "name": "Pinch-Out Experimental Operation",
+                "start": [
+                    12,
+                    5
+                ]
+            },
+            {
+                "duration": 14,
+                "event": "act26side",
+                "name": "Hortus de Escapismo",
+                "start": [
+                    12,
+                    21
+                ]
+            }
+        ],
+        "2024": [
+            {
+                "duration": 10,
+                "event": "act18sre",
+                "name": "Lingering Echoes - Rerun",
+                "rerun": "act18side",
+                "start": [
+                    1,
+                    5
+                ]
+            },
+            {
+                "duration": 21,
+                "event": "act27side",
+                "name": "So Long, Adele: Home Away From Home",
+                "start": [
+                    1,
+                    16
+                ]
+            },
+            {
+                "duration": 10,
+                "event": "act20sre",
+                "name": "Ideal City: Endless Carnival - Rerun",
+                "rerun": "act20side",
+                "start": [
+                    2,
+                    6
+                ]
+            },
+            {
+                "duration": 14,
+                "event": "act3bossrush",
+                "name": "Trials for Navigator",
+                "start": [
+                    2,
+                    12
+                ]
+            },
+            {
+                "duration": 7,
+                "event": "act15mini",
+                "name": "The Black Forest Wills A Dream",
+                "start": [
+                    2,
+                    27
+                ]
+            },
+            {
+                "duration": 10,
+                "event": "act19sre",
+                "name": "Dorothy's Vision - Retrospection",
+                "rerun": "act19side",
+                "start": [
+                    3,
+                    5
+                ]
+            },
+            {
+                "duration": 14,
+                "event": "act28side",
+                "name": "Come Catastrophes or Wakes of Vultures",
+                "start": [
+                    3,
+                    19
+                ]
+            },
+            {
+                "duration": 7,
+                "event": "act4fun",
+                "name": "April Fools' Day Event",
+                "start": [
+                    4,
+                    1
+                ]
+            },
+            {
+                "duration": 14,
+                "event": "act42d0",
+                "name": "Design of Strife",
+                "start": [
+                    4,
+                    2
+                ]
+            },
+            {
+                "duration": 21,
+                "event": "act29side",
+                "name": "Zwillingst\u00fcrme im Herbst",
+                "start": [
+                    4,
+                    30
+                ]
+            },
+            {
+                "duration": 10,
+                "event": "act21sre",
+                "name": "Il Siracusano - Retrospection",
+                "rerun": "act21side",
+                "start": [
+                    5,
+                    23
+                ]
+            },
+            {
+                "duration": 14,
+                "event": "crisis_v2_season_1_1",
+                "name": "Contingency Contract #1: Battleplan Pyrolysis",
+                "start": [
+                    6,
+                    5
+                ]
+            },
+            {
+                "duration": 14,
+                "event": "act30side",
+                "name": "The Rides to Lake Silberneherze",
+                "start": [
+                    6,
+                    21
+                ]
+            },
+            {
+                "duration": 7,
+                "event": "act16mini",
+                "name": "To the Grinning Valley",
+                "start": [
+                    7,
+                    9
+                ]
+            },
+            {
+                "duration": 10,
+                "event": "act23sre",
+                "name": "Where Vernal Winds Will Never Blow - Rerun",
+                "rerun": "act23side",
+                "start": [
+                    7,
+                    18
+                ]
+            },
+            {
+                "duration": 21,
+                "event": "act31side",
+                "name": "Here A People Sows",
+                "start": [
+                    7,
+                    31
+                ]
+            },
+            {
+                "duration": 14,
+                "event": "act4bossrush",
+                "name": "Trials for Navigator",
+                "start": [
+                    8,
+                    14
+                ]
+            },
+            {
+                "duration": 10,
+                "event": "act22sre",
+                "name": "What the Firelight Casts - Retrospection",
+                "rerun": "act22side",
+                "start": [
+                    8,
+                    21
+                ]
+            },
+            {
+                "duration": 14,
+                "event": "act32side",
+                "name": "Operation Lucent Arrowhead",
+                "start": [
+                    9,
+                    5
+                ]
+            },
+            {
+                "duration": 10,
+                "event": "act1r6sre",
+                "name": "Operation Originium Dust - Retrospection",
+                "rerun": "act17d0",
+                "start": [
+                    9,
+                    19
+                ]
+            },
+            {
+                "duration": 14,
+                "event": "crisis_v2_season_2_1",
+                "name": "Contingency Contract #2: Battleplan Underdawn",
+                "start": [
+                    9,
+                    26
+                ]
+            },
+            {
+                "duration": 21,
+                "event": "act33side",
+                "name": "Babel",
+                "start": [
+                    10,
+                    10
+                ]
+            },
+            {
+                "duration": 14,
+                "event": "act1mainss",
+                "name": "Absolved Will Be the Seekers",
+                "start": [
+                    10,
+                    31
+                ]
+            },
+            {
+                "duration": 14,
+                "event": "act2vmulti",
+                "name": "Rhodes Island Icebreaker Games",
+                "start": [
+                    11,
+                    14
+                ]
+            },
+            {
+                "duration": 10,
+                "event": "act25sre",
+                "name": "Lone Trail - Rerun",
+                "rerun": "act25side",
+                "start": [
+                    11,
+                    21
+                ]
+            },
+            {
+                "duration": 14,
+                "event": "act34side",
+                "name": "Path of Life",
+                "start": [
+                    12,
+                    3
+                ]
+            },
+            {
+                "duration": 10,
+                "event": "act26sre",
+                "name": "Hortus de Escapismo - Retrospection",
+                "rerun": "act26side",
+                "start": [
+                    12,
+                    24
+                ]
+            }
+        ],
+        "2025": [
+            {
+                "duration": 10,
+                "event": "act27sre",
+                "name": "So Long, Adele: Home Away From Home - Retrospection",
+                "rerun": "act27side",
+                "start": [
+                    1,
+                    3
+                ]
+            },
+            {
+                "duration": 21,
+                "event": "act35side",
+                "name": "Adventure That Cannot Wait for the Sun",
+                "start": [
+                    1,
+                    16
+                ]
+            }
+        ]
+    },
+    "future": {
+        "2025": [
+            {
+                "duration": 14,
+                "event": "act36side",
+                "name": "Delicious on Terra",
+                "start": [
+                    3,
+                    10
+                ]
+            },
+            {
+                "duration": 14,
+                "event": "act1vecb",
+                "name": "Vector Breakthrough",
+                "start": [
+                    3,
+                    25
+                ]
+            }
+        ]
+    },
+    "version": "25-01-09-10-23-26-04f82e"
 }

@@ -167,6 +167,7 @@
 				eventDivs[y][m].push({
 					event: event.event,
 					name: index === 0 ? true : false,
+					year: y,
 					rerun: event.rerun || false,
 					order: order || null,
 					overlap: overlap || null,
@@ -254,55 +255,50 @@
 
 	// "Temporary" (permanent) fix for events not overlapping correctly
 	onMount(() => {
-		if (["cn", "en"].includes(page.id)) {
-			const icec = document.querySelectorAll(`#${page.id} .icec.end`)[0];
-			const cc10 = document.querySelectorAll(`#${page.id} .cc10`);
+		const act20side = document.querySelectorAll(`#${page.id} .act20side.end`)[0];
+		const rune_season_10_1 = document.querySelectorAll(`#${page.id} .rune_season_10_1`);
 
-			if (page.id === "cn") {
-				icec.style.cssText = "--grid-row:5; --grid-column:1 / span 10;";
-				cc10[0].classList.add("bottom");
-				cc10[1].classList.add("bottom");
-			};
+		act20side.classList.remove("top");
+		act20side.style.cssText = "--grid-row:5; --grid-column:1 / span 11;";
+		rune_season_10_1[0].style.cssText = "--grid-row:1; --grid-column:span 3 / -1;";
 
-			if (page.id === "en") {
-				icec.classList.remove("top");
-				icec.style.cssText = "--grid-row:5; --grid-column:1 / span 11;";
-				cc10[0].style.cssText = "--grid-row:1; --grid-column:span 3 / -1;";
-			};
+		const act12mini = document.querySelectorAll(`#${page.id} .act12mini.end`)[0];
+		const act3fun = document.querySelectorAll(`#${page.id} .act3fun.end`)[0];
+		const act13mini = document.querySelectorAll(`#${page.id} .act13mini.start`)[0];
 
-			const ra1 = document.querySelectorAll(`#${page.id} .ra1`);
-			const ga = document.querySelectorAll(`#${page.id} .ga.rerun`);
-			const cc12 = document.querySelectorAll(`#${page.id} .cc12`);
+		act12mini.style.cssText = "--grid-row: 2; --grid-column: 1 / span 10;";
+		act3fun.classList.remove("top");
+		act3fun.classList.add("bottom");
+		act13mini.classList.remove("bottom");
+		act13mini.classList.add("top");
 
-			if (page.id === "cn") {
-				ra1[5].classList.remove("top")
-				ra1[5].style.cssText = "--grid-row: 2; --grid-column: 1 / span 2;"
+		const act1sandbox = document.querySelectorAll(`#${page.id} .act1sandbox`);
+		const act16side = document.querySelectorAll(`#${page.id} .act16side.rerun`);
+		const rune_season_12_1 = document.querySelectorAll(`#${page.id} .rune_season_12_1`);
 
-				for (const part of ga) {
-					part.classList.add("bottom");
-				};
-			};
+		rune_season_12_1[0].classList.add("bottom");
+		rune_season_12_1[1].classList.add("bottom");
+		act1sandbox[5].style.cssText = "--grid-row: 2; --grid-column: 1 / span 10;"
 
-			if (page.id === "en") {
-				cc12[0].classList.add("bottom");
-				cc12[1].classList.add("bottom");
-				ra1[5].style.cssText = "--grid-row: 2; --grid-column: 1 / span 10;"
-
-				for (const part of ga) {
-					part.classList.add("bottom");
-				};
-			};
+		for (const part of act16side) {
+			part.classList.add("bottom");
 		};
 
-		if (page.id === "en") {
-			const haps = document.querySelectorAll(`#${page.id} .haps.end`)[0];
-			const wtfc = document.querySelectorAll(`#${page.id} .wtfc.rerun.start`)[0];
+		const act28side = document.querySelectorAll(`#${page.id} .act28side.end`)[0];
+		const act42d0 = document.querySelectorAll(`#${page.id} .act42d0.start`)[0];
 
-			haps.classList.remove("top");
-			haps.classList.add("bottom");
-			haps.style.cssText = "--grid-row: 4; --grid-column: 1 / span 7;"
-			wtfc.style.cssText = "--grid-row: 4; --grid-column: span 7 / -1;";
-		};
+		act28side.classList.remove("top");
+		act28side.classList.add("bottom");
+		act28side.style.cssText = "--grid-row: 6; --grid-column: 1 / span 5;";
+		act42d0.style.cssText = "--grid-row: 1; --grid-column: span 9 / -1;";
+
+		const act31side = document.querySelectorAll(`#${page.id} .act31side.end`)[0];
+		const act22side = document.querySelectorAll(`#${page.id} .act22side.rerun.start`)[0];
+
+		act31side.classList.remove("top");
+		act31side.classList.add("bottom");
+		act31side.style.cssText = "--grid-row: 4; --grid-column: 1 / span 7;"
+		act22side.style.cssText = "--grid-row: 4; --grid-column: span 7 / -1;";
 	});
 
 	// Swipe handling

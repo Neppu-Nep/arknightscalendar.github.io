@@ -8,18 +8,8 @@
 		]
 	},
 	{
-		"id": "cn",
-		"icon": "premium",
-		"description": ["A complete timeline of the CN schedule."]
-	},
-	{
 		"id": "en",
 		"icon": "elderly",
 		"description": ["A complete timeline of the EN/JP/KR schedule."]
-	},
-	{
-		"id": "tw",
-		"icon": "bolt",
-		"description": ["A complete timeline of the TW schedule."]
 	}
 ]

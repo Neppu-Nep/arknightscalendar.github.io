@@ -1,21 +1,21 @@
 <script>
-	import names from "../data/names.json";
+	import eventsData from "../data/events.json";
 	import { activePage } from "../stores/store.js";
 	import { getContext } from "svelte";
 
 	export let div;
 
-	const { event, name, rerun, order, overlap, styles } = div;
+	const { event, name, year, rerun, order, overlap, styles } = div;
 	const id = getContext("id");
-
+	const eventData = eventsData[id][year].filter(e => e.event === event)[0];
 
 	// Copy permalink on click.
 	const url = window.location.origin + window.location.pathname;
-	const text = `${names[event]}${rerun ? " (Rerun)" : ""}`;
+	const text = eventData?.name || "";
 
 	function getPermalink() {
-		const copyUrl = url + `?schedule=${$activePage}&event=${event}${rerun ? ".rerun" : ""}`;
-		const targets = document.querySelectorAll(`#${$activePage} .${event}${rerun ? ".rerun" : ":not(.rerun)"}`);
+		const copyUrl = url + `?schedule=${$activePage}&event=${event}`;
+		const targets = document.querySelectorAll(`#${$activePage} .${rerun ? `${rerun}` : event} ${rerun ? ".rerun" : ""}`);
 
 		// Copy to clipboard.
 		navigator.clipboard.writeText(copyUrl);
@@ -33,7 +33,7 @@
 
 		if ($activePage !== "future") return;
 
-		const tooltip = document.querySelector(`.${event}-tooltip`);
+		const tooltip = document.querySelector(rerun ? `.${rerun}-tooltip` : `.${event}-tooltip`);
 		if (!tooltip) return;
 
 		const mouseX = mouseTouchEvent.touches ? mouseTouchEvent.touches[0].clientX : mouseTouchEvent.clientX;
@@ -50,7 +50,7 @@
 	};
 
 	function hideTooltip() {
-		const tooltip = document.querySelector(`.${event}-tooltip`);
+		const tooltip = document.querySelector(rerun ? `.${rerun}-tooltip` : `.${event}-tooltip`);
 		if (!tooltip) return;
 
 		tooltip.style.left = "0px";
@@ -71,7 +71,7 @@
 
 	// Expand all overlapping divs on hover.
 	function overlapHover() {
-		const targets = document.querySelectorAll(`#${$activePage} .${event}${rerun ? ".rerun" : ":not(.rerun)"}`);
+		const targets = document.querySelectorAll(`#${$activePage} .${rerun ? `${rerun}` : event}`);
 
 		for (const div of targets) {
 			const classes = div.classList;
@@ -87,8 +87,9 @@
 <!-- svelte-ignore a11y-no-static-element-interactions -->
 <div
 	bind:this={element}
-	class={event}
-	class:rerun
+	class={rerun ? rerun : event}
+	class:rerun={rerun}
+	class:default={true}
 	class:start={order === "start"}
 	class:end={order === "end"}
 	class:top={overlap === "top"}
