@@ -1108,7 +1108,7 @@
             {
                 "duration": 14,
                 "event": "act29sre",
-                "name": "Zwillingstürme im Herbst - Rerun",
+                "name": "Zwillingst\u00c3\u00bcrme im Herbst - Rerun",
                 "rerun": "act29side",
                 "start": [
                     5,
@@ -1117,5 +1117,5 @@
             }
         ]
     },
-    "version": "25-02-07-19-17-38-79e870"
+    "version": "25-03-04-08-32-55-c7c664"
 }
