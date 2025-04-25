@@ -74,6 +74,13 @@ if local_data["version"] != latest_version:
                         break
             continue
 
+    # Remove events in future that already happened
+    for year, events in local_data["future"].items():
+        for event in events:
+            if event["start"][0] < today.month or (event["start"][0] == today.month and event["start"][1] < today.day):
+                print(f"Removing event {event['event']} from {year}")
+                local_data["future"][year].remove(event)
+
     # TODO: Integrated Strategy and Contingency Crisis
 
     for section in ["en", "future"]:
@@ -97,6 +104,10 @@ stage_ids = [stage_id for stage_id in stage_table["stages"].keys()]
 for year in local_data["future"].keys():
     for event in local_data["future"][year]:
         event_id = event["rerun"] if "rerun" in event else event["event"]
+
+        if "mini" in event_id:
+            continue
+
         event_stages = [stage_id for stage_id in stage_ids if stage_id.startswith(event_id)]
         event_stage_filtered = []
         for stage_id in event_stages:
@@ -140,4 +151,4 @@ for event_id in diff:
     del local_mats[event_id]
 
 with open("src/data/mats.json", "w") as f:
-    json.dump(local_mats, f, indent=4, sort_keys=True)
+    json.dump(local_mats, f, indent=4, sort_keys=True, ensure_ascii=True)

@@ -1036,11 +1036,7 @@
                     2,
                     7
                 ]
-            }
-        ]
-    },
-    "future": {
-        "2025": [
+            },
             {
                 "duration": 10,
                 "event": "act28sre",
@@ -1054,7 +1050,7 @@
             {
                 "duration": 14,
                 "event": "act36side",
-                "name": "Delicious on Terra",
+                "name": "Delicious On Terra",
                 "start": [
                     3,
                     10
@@ -1067,15 +1063,6 @@
                 "start": [
                     3,
                     25
-                ]
-            },
-            {
-                "duration": 7,
-                "event": "act17d7",
-                "name": "April Fools' Day Event",
-                "start": [
-                    4,
-                    1
                 ]
             },
             {
@@ -1095,7 +1082,11 @@
                     4,
                     24
                 ]
-            },
+            }
+        ]
+    },
+    "future": {
+        "2025": [
             {
                 "duration": 14,
                 "event": "act1vautochess",
@@ -1108,11 +1099,76 @@
             {
                 "duration": 14,
                 "event": "act29sre",
-                "name": "Zwillingst\u00c3\u00bcrme im Herbst - Rerun",
+                "name": "Zwillingst\u00fcrme im Herbst - Rerun",
                 "rerun": "act29side",
                 "start": [
                     5,
                     22
+                ]
+            },
+            {
+                "duration": 14,
+                "event": "act39side",
+                "name": "Exodus from the Pale Sea",
+                "start": [
+                    6,
+                    5
+                ]
+            },
+            {
+                "duration": 14,
+                "event": "act1arcade",
+                "name": "Poly Vision Museum",
+                "start": [
+                    6,
+                    12
+                ]
+            },
+            {
+                "duration": 10,
+                "event": "act30sre",
+                "name": "The Rides to Lake Silberneherze - Rerun",
+                "rerun": "act30side",
+                "start": [
+                    6,
+                    20
+                ]
+            },
+            {
+                "duration": 14,
+                "event": "act31sre",
+                "name": "Here A People Sows - Rerun",
+                "rerun": "act31side",
+                "start": [
+                    7,
+                    3
+                ]
+            },
+            {
+                "duration": 21,
+                "event": "act40side",
+                "name": "Such is the Joy of Our Reunion",
+                "start": [
+                    7,
+                    17
+                ]
+            },
+            {
+                "duration": 7,
+                "event": "act18mini",
+                "name": "See You Soon",
+                "start": [
+                    8,
+                    7
+                ]
+            },
+            {
+                "duration": 14,
+                "event": "crisis_v2_season_3_1",
+                "name": "Contingency Contract #3: Battleplan Extinguished Sins",
+                "start": [
+                    8,
+                    14
                 ]
             }
         ]

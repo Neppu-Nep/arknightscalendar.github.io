@@ -1,27 +1,27 @@
 {
-    "act28side": {
-        "CV-6": "SugarPack",
-        "CV-7": "Grindstone",
-        "CV-8": "TransmutedSalt"
-    },
     "act29side": {
         "ZT-7": "OrironCluster",
         "ZT-8": "IntegratedDevice",
         "ZT-9": "LoxicKohl"
     },
-    "act36side": {
-        "DT-6": "PolyesterPack",
-        "DT-7": "IncandescentAlloy",
-        "DT-8": "FuscousFiber"
+    "act30side": {
+        "RS-6": "PolyesterPack",
+        "RS-7": "ManganeseOre",
+        "RS-8": "CrystallineComponent"
     },
-    "act37side": {
-        "GO-7": "OrirockCluster",
-        "GO-8": "CoagulatingGel",
-        "GO-9": "Semi-SyntheticSolvent"
+    "act31side": {
+        "HS-7": "OrirockCluster",
+        "HS-8": "LoxicKohl",
+        "HS-9": "RMA70-12"
     },
-    "act38side": {
-        "PV-10": "CompoundCuttingFluid",
-        "PV-8": "ManganeseOre",
-        "PV-9": "RMA70-12"
+    "act39side": {
+        "EP-6": "SugarPack",
+        "EP-7": "Aketon",
+        "EP-8": "Grindstone"
+    },
+    "act40side": {
+        "OR-7": "IntegratedDevice",
+        "OR-8": "IncandescentAlloy",
+        "OR-9": "TransmutedSalt"
     }
 }
