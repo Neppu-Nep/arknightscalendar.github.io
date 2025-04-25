@@ -4,7 +4,15 @@
 		"name": "Future",
 		"icon": "schedule",
 		"description": [
-			"Event Date Prediction Based on Yostar Datamine and Past Schedule."
+			"Event Date Prediction Based on Yostar Datamine."
+		]
+	},
+	{
+		"id": "shoperators",
+		"name": "Shoperators",
+		"icon": "premium",
+		"description": [
+			"Shoperators Prediction Based on Yostar Datamine."
 		]
 	},
 	{

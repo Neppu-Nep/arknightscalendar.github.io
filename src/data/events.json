@@ -1173,5 +1173,72 @@
             }
         ]
     },
+    "shoperators": {
+        "2025": [
+            {
+                "duration": 14,
+                "event": "NORM_EN_33_0_6",
+                "name": "Fiammetta",
+                "start": [
+                    5,
+                    9
+                ]
+            },
+            {
+                "duration": 14,
+                "event": "NORM_EN_33_0_7",
+                "name": "Horn",
+                "start": [
+                    5,
+                    23
+                ]
+            },
+            {
+                "duration": 14,
+                "event": "NORM_EN_34_0_3",
+                "name": "Reed the Flame Shadow",
+                "start": [
+                    6,
+                    20
+                ]
+            },
+            {
+                "duration": 14,
+                "event": "NORM_EN_33_0_6",
+                "name": "Lin",
+                "start": [
+                    7,
+                    4
+                ]
+            },
+            {
+                "duration": 14,
+                "event": "NORM_EN_33_0_8",
+                "name": "Irene",
+                "start": [
+                    7,
+                    18
+                ]
+            },
+            {
+                "duration": 14,
+                "event": "NORM_EN_33_0_9",
+                "name": "Qiubai",
+                "start": [
+                    8,
+                    1
+                ]
+            },
+            {
+                "duration": 14,
+                "event": "NORM_EN_33_0_12",
+                "name": "Ebenholz",
+                "start": [
+                    8,
+                    15
+                ]
+            }
+        ]
+    },
     "version": "25-04-22-13-06-24-04fd4f"
 }

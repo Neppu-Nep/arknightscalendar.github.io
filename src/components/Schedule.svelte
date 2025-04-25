@@ -255,6 +255,7 @@
 
 	// "Temporary" (permanent) fix for events not overlapping correctly
 	onMount(() => {
+		if (page.id !== "en") return;
 		const act20side = document.querySelectorAll(`#${page.id} .act20side.end`)[0];
 		const rune_season_10_1 = document.querySelectorAll(`#${page.id} .rune_season_10_1`);
 
