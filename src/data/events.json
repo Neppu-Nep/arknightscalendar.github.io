@@ -1082,21 +1082,20 @@
                     4,
                     24
                 ]
+            },
+            {
+                "duration": 14,
+                "event": "act1vautochess",
+                "name": "Stronghold Protocol",
+                "start": [
+                    5,
+                    8
+                ]
             }
         ]
     },
     "future": {
         "2025": [
-            {
-                "duration": 14,
-                "event": "act29sre",
-                "name": "Zwillingst\u00fcrme im Herbst - Rerun",
-                "rerun": "act29side",
-                "start": [
-                    5,
-                    22
-                ]
-            },
             {
                 "duration": 14,
                 "event": "act39side",
@@ -1231,5 +1230,5 @@
             }
         ]
     },
-    "version": "25-04-30-05-15-00-292bb3"
+    "version": "25-05-12-11-19-07-39a09e"
 }
