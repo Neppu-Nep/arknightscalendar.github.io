@@ -1091,20 +1091,21 @@
                     5,
                     8
                 ]
+            },
+            {
+                "duration": 10,
+                "event": "act29sre",
+                "name": "Zwillingst\u00fcrme im Herbst - Rerun",
+                "rerun": "act29side",
+                "start": [
+                    5,
+                    22
+                ]
             }
         ]
     },
     "future": {
         "2025": [
-            {
-                "duration": 14,
-                "event": "act39side",
-                "name": "Exodus from the Pale Sea",
-                "start": [
-                    6,
-                    5
-                ]
-            },
             {
                 "duration": 14,
                 "event": "act1arcade",
@@ -1230,5 +1231,5 @@
             }
         ]
     },
-    "version": "25-05-12-11-19-07-39a09e"
+    "version": "25-05-30-06-22-57-d89b97"
 }
