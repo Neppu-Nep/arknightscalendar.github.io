@@ -1101,20 +1101,20 @@
                     5,
                     22
                 ]
+            },
+            {
+                "duration": 14,
+                "event": "act39side",
+                "name": "Exodus from the Pale Sea",
+                "start": [
+                    6,
+                    5
+                ]
             }
         ]
     },
     "future": {
         "2025": [
-            {
-                "duration": 14,
-                "event": "act1arcade",
-                "name": "Poly Vision Museum",
-                "start": [
-                    6,
-                    12
-                ]
-            },
             {
                 "duration": 10,
                 "event": "act30sre",
@@ -1231,5 +1231,5 @@
             }
         ]
     },
-    "version": "25-05-30-06-22-57-d89b97"
+    "version": "25-06-18-15-18-19-8dea25"
 }
