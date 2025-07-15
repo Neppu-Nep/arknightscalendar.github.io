@@ -1192,6 +1192,7 @@
                 "duration": 14,
                 "event": "act33sre",
                 "name": "Babel - Rerun",
+                "rerun": "act33side",
                 "start": [
                     9,
                     30

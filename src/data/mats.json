@@ -4,6 +4,11 @@
         "HS-8": "LoxicKohl",
         "HS-9": "RMA70-12"
     },
+    "act33side": {
+        "BB-6": "OrirockCluster",
+        "BB-7": "OrironCluster",
+        "BB-8": "CoagulatingGel"
+    },
     "act40side": {
         "OR-7": "IntegratedDevice",
         "OR-8": "IncandescentAlloy",
