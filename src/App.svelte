@@ -3,6 +3,7 @@
 	import Schedule from "./components/Schedule.svelte";
 	import pages from "./data/pages.json";
 	import mats from "./data/mats.json";
+	import operators from "./data/operators.json";
 	import { activePage } from "./stores/store.js";
 	import { onMount } from "svelte";
 	import Tooltip from "./components/Tooltip.svelte";
@@ -53,6 +54,9 @@
 	{/each}
 	<div class="tooltip-container">
 		{#each Object.entries(mats) as [event, items]}
+			<Tooltip {event} {items} materials/>
+		{/each}
+		{#each Object.entries(operators) as [event, items]}
 			<Tooltip {event} {items}/>
 		{/each}
 	</div>

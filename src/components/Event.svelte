@@ -31,7 +31,7 @@
 
 	function showTooltip(mouseTouchEvent) {
 
-		if ($activePage !== "future") return;
+		if ($activePage !== "future" && $activePage !== "shoperators") return;
 
 		const tooltip = document.querySelector(rerun ? `.${rerun}-tooltip` : `.${event}-tooltip`);
 		if (!tooltip) return;

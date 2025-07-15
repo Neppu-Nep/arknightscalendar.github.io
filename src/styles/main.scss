@@ -406,7 +406,7 @@ h1 {
 }
 
 // Tooltip
-.tooltip {
+.tooltip{
 	opacity: 0;
 	position: absolute;
 	z-index: -1;
@@ -420,7 +420,7 @@ h1 {
 	gap: 10px;
 }
 
-.tooltip-item {
+.tooltip-item, .tooltip-operator {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -435,6 +435,15 @@ h1 {
 .tooltip-item-stage {
 	font-size: clamp(10px, 2.5vw, 12px);
 	color: #000;
+}
+
+.tooltip-operator-icon {
+	height: clamp(96px, 40vw, 192px);
+}
+
+.tooltip-operator-name {
+	font-size: clamp(10px, 10vw, 12px);
+	color: #ffffff;
 }
 
 // GitHub link

@@ -1110,21 +1110,20 @@
                     6,
                     5
                 ]
+            },
+            {
+                "duration": 14,
+                "event": "act1arcade",
+                "name": "Poly Vision Museum",
+                "start": [
+                    6,
+                    12
+                ]
             }
         ]
     },
     "future": {
         "2025": [
-            {
-                "duration": 10,
-                "event": "act30sre",
-                "name": "The Rides to Lake Silberneherze - Rerun",
-                "rerun": "act30side",
-                "start": [
-                    6,
-                    20
-                ]
-            },
             {
                 "duration": 14,
                 "event": "act31sre",
@@ -1161,6 +1160,42 @@
                     8,
                     14
                 ]
+            },
+            {
+                "duration": 14,
+                "event": "act41side",
+                "name": "When Elegies Are Ashes",
+                "start": [
+                    8,
+                    28
+                ]
+            },
+            {
+                "duration": 21,
+                "event": "act1multi",
+                "name": "Icebreaker Games #1",
+                "start": [
+                    9,
+                    4
+                ]
+            },
+            {
+                "duration": 14,
+                "event": "act2mainss",
+                "name": "Dissociative Recombination",
+                "start": [
+                    9,
+                    16
+                ]
+            },
+            {
+                "duration": 14,
+                "event": "act33sre",
+                "name": "Babel - Rerun",
+                "start": [
+                    9,
+                    30
+                ]
             }
         ]
     },
@@ -1168,34 +1203,7 @@
         "2025": [
             {
                 "duration": 14,
-                "event": "NORM_EN_33_0_6",
-                "name": "Fiammetta",
-                "start": [
-                    5,
-                    9
-                ]
-            },
-            {
-                "duration": 14,
-                "event": "NORM_EN_33_0_7",
-                "name": "Horn",
-                "start": [
-                    5,
-                    23
-                ]
-            },
-            {
-                "duration": 14,
-                "event": "NORM_EN_34_0_3",
-                "name": "Reed the Flame Shadow",
-                "start": [
-                    6,
-                    20
-                ]
-            },
-            {
-                "duration": 14,
-                "event": "NORM_EN_33_0_6",
+                "event": "NORM_EN_34_0_6",
                 "name": "Lin",
                 "start": [
                     7,
@@ -1204,7 +1212,7 @@
             },
             {
                 "duration": 14,
-                "event": "NORM_EN_33_0_8",
+                "event": "NORM_EN_34_0_8",
                 "name": "Irene",
                 "start": [
                     7,
@@ -1213,7 +1221,7 @@
             },
             {
                 "duration": 14,
-                "event": "NORM_EN_33_0_9",
+                "event": "NORM_EN_34_0_9",
                 "name": "Qiubai",
                 "start": [
                     8,
@@ -1222,7 +1230,7 @@
             },
             {
                 "duration": 14,
-                "event": "NORM_EN_33_0_12",
+                "event": "NORM_EN_34_0_12",
                 "name": "Ebenholz",
                 "start": [
                     8,
