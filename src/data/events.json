@@ -1119,21 +1119,21 @@
                     6,
                     12
                 ]
+            },
+            {
+                "duration": 10,
+                "event": "act30sre",
+                "name": "The Rides to Lake Silberneherze - Rerun",
+                "rerun": "act30side",
+                "start": [
+                    6,
+                    20
+                ]
             }
         ]
     },
     "future": {
         "2025": [
-            {
-                "duration": 14,
-                "event": "act31sre",
-                "name": "Here A People Sows - Rerun",
-                "rerun": "act31side",
-                "start": [
-                    7,
-                    3
-                ]
-            },
             {
                 "duration": 21,
                 "event": "act40side",
@@ -1240,5 +1240,5 @@
             }
         ]
     },
-    "version": "25-06-18-15-18-19-8dea25"
+    "version": "25-07-10-07-52-12-701310"
 }
