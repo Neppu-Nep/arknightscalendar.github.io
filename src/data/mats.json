@@ -4,11 +4,6 @@
         "BB-7": "OrironCluster",
         "BB-8": "CoagulatingGel"
     },
-    "act40side": {
-        "OR-7": "IntegratedDevice",
-        "OR-8": "IncandescentAlloy",
-        "OR-9": "TransmutedSalt"
-    },
     "act41side": {
         "EA-6": "Grindstone",
         "EA-7": "Semi-SyntheticSolvent",

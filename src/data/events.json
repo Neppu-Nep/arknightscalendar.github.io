@@ -1129,20 +1129,21 @@
                     6,
                     20
                 ]
+            },
+            {
+                "duration": 10,
+                "event": "act31sre",
+                "name": "Here A People Sows - Rerun",
+                "rerun": "act31side",
+                "start": [
+                    7,
+                    3
+                ]
             }
         ]
     },
     "future": {
         "2025": [
-            {
-                "duration": 21,
-                "event": "act40side",
-                "name": "Such is the Joy of Our Reunion",
-                "start": [
-                    7,
-                    17
-                ]
-            },
             {
                 "duration": 7,
                 "event": "act18mini",
@@ -1240,5 +1241,5 @@
             }
         ]
     },
-    "version": "25-07-10-07-52-12-701310"
+    "version": "25-08-05-10-53-50-e27097"
 }
