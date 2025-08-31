@@ -1139,20 +1139,20 @@
                     7,
                     3
                 ]
+            },
+            {
+                "duration": 21,
+                "event": "act40side",
+                "name": "Such is the Joy of Our Reunion",
+                "start": [
+                    7,
+                    17
+                ]
             }
         ]
     },
     "future": {
         "2025": [
-            {
-                "duration": 7,
-                "event": "act18mini",
-                "name": "See You Soon",
-                "start": [
-                    8,
-                    7
-                ]
-            },
             {
                 "duration": 14,
                 "event": "crisis_v2_season_3_1",
@@ -1160,15 +1160,6 @@
                 "start": [
                     8,
                     14
-                ]
-            },
-            {
-                "duration": 14,
-                "event": "act41side",
-                "name": "When Elegies Are Ashes",
-                "start": [
-                    8,
-                    28
                 ]
             },
             {
@@ -1241,5 +1232,5 @@
             }
         ]
     },
-    "version": "25-08-05-10-53-50-e27097"
+    "version": "25-08-26-06-07-36_be7305"
 }
