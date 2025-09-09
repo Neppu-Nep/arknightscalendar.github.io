@@ -1148,20 +1148,29 @@
                     7,
                     17
                 ]
+            },
+            {
+                "duration": 7,
+                "event": "act18mini",
+                "name": "See You Soon",
+                "start": [
+                    8,
+                    7
+                ]
+            },
+            {
+                "duration": 14,
+                "event": "act41side",
+                "name": "When Elegies Are Ashes",
+                "start": [
+                    8,
+                    28
+                ]
             }
         ]
     },
     "future": {
         "2025": [
-            {
-                "duration": 14,
-                "event": "crisis_v2_season_3_1",
-                "name": "Contingency Contract #3: Battleplan Extinguished Sins",
-                "start": [
-                    8,
-                    14
-                ]
-            },
             {
                 "duration": 21,
                 "event": "act1multi",
@@ -1232,5 +1241,5 @@
             }
         ]
     },
-    "version": "25-08-26-06-07-36_be7305"
+    "version": "25-09-02-09-10-49_7f4092"
 }
