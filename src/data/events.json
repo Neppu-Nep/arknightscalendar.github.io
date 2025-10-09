@@ -1172,31 +1172,12 @@
     "future": {
         "2025": [
             {
-                "duration": 21,
-                "event": "act1multi",
-                "name": "Icebreaker Games #1",
-                "start": [
-                    9,
-                    4
-                ]
-            },
-            {
                 "duration": 14,
                 "event": "act2mainss",
                 "name": "Dissociative Recombination",
                 "start": [
                     9,
                     16
-                ]
-            },
-            {
-                "duration": 14,
-                "event": "act33sre",
-                "name": "Babel - Rerun",
-                "rerun": "act33side",
-                "start": [
-                    9,
-                    30
                 ]
             }
         ]
@@ -1241,5 +1222,5 @@
             }
         ]
     },
-    "version": "25-09-02-09-10-49_7f4092"
+    "version": "25-09-15-04-46-25_59e90b"
 }
