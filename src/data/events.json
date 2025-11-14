@@ -1177,6 +1177,15 @@
                 ]
             },
             {
+                "duration": 14,
+                "event": "act2mainss",
+                "name": "Dissociative Recombination",
+                "start": [
+                    9,
+                    16
+                ]
+            },
+            {
                 "duration": 10,
                 "event": "act33sre",
                 "name": "Babel - Rerun",
@@ -1212,11 +1221,31 @@
                     10,
                     30
                 ]
+            },
+            {
+                "duration": 14,
+                "event": "act43side",
+                "name": "Act or Die",
+                "start": [
+                    11,
+                    13
+                ]
             }
         ]
     },
     "future": {
-        "2025": []
+        "2025": [
+            {
+                "duration": 10,
+                "event": "act34sre",
+                "name": "Path of Life - Rerun",
+                "rerun": "act34side",
+                "start": [
+                    11,
+                    27
+                ]
+            }
+        ]
     },
     "shoperators": {
         "2025": [
@@ -1258,5 +1287,5 @@
             }
         ]
     },
-    "version": "25-10-28-07-04-59_bb83f3"
+    "version": "25-11-11-08-15-40_78dbfa"
 }
